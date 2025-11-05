@@ -1,0 +1,41 @@
+# Quick Setup Guide
+
+## Step 1: Extract the Zip File
+Extract the downloaded zip file to your desired location.
+
+## Step 2: Install Python
+Make sure you have Python 3.8 or higher installed on your system.
+You can download it from: https://www.python.org/downloads/
+
+## Step 3: Install Dependencies
+Open terminal/command prompt in the project folder and run:
+```
+pip install -r requirements.txt
+```
+
+## Step 4: Run the Application
+In the same terminal, run:
+```
+streamlit run app.py
+```
+
+## Step 5: Access the App
+The application will automatically open in your default web browser.
+If not, navigate to: http://localhost:8501
+
+## Troubleshooting
+
+If you encounter any errors:
+1. Make sure Python is in your system PATH
+2. Try using `pip3` instead of `pip`
+3. Ensure you're in the correct project directory
+4. Check that all files extracted properly
+
+## Usage Tips
+
+- For diabetes prediction, enter accurate medical parameters
+- For heart disease, provide recent test results
+- For symptom prediction, select all relevant symptoms
+- Always consult a doctor for professional medical advice
+
+Happy predicting! 🏥

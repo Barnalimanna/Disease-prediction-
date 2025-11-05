@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Starting Disease Prediction App..."
+echo ""
+echo "Installing dependencies (if needed)..."
+pip install -r requirements.txt
+echo ""
+echo "Launching Streamlit app..."
+streamlit run app.py
